@@ -1,5 +1,6 @@
 #pragma once
 #include <cheat/cheat.hpp>
+#include <csgo/entity_list.hpp>
 
 namespace cheat
 {
@@ -8,7 +9,8 @@ namespace cheat
 	public:
 		csgo_cheat_t();
 
-		virtual int mainloop();
+		virtual bool init();
 	private:
+		csgo::entity_list_t entity_list_;
 	};
 } // namespace cheat

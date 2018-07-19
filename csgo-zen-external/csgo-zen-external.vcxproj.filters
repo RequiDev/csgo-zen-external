@@ -21,9 +21,15 @@
     <ClCompile Include="cheat\csgo_cheat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="csgo\entity_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cheat\csgo_cheat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo\entity_list.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
