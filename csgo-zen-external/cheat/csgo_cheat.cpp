@@ -3,7 +3,7 @@
 namespace cheat
 {
 	csgo_cheat_t::csgo_cheat_t():
-		cheat_t("Counter-Strike: Global Offensive", "Valve001"),
+		cheat_t("Counter-Strike: Global Offensive", "Valve001", "csgo_external"),
 		entity_list_(&process_)
 	{
 	}
